@@ -1,0 +1,271 @@
+
+Yii Migration Tool v1.0 (based on Yii v1.1.20)
+
+Creating migration history table "tbl_migration"...done.
+Total 26 new migrations to be applied:
+    m140101_000100_create_blog_table
+    m140101_000200_create_event_table
+    m140101_000300_create_file_table
+    m140101_000400_create_image_table
+    m140101_000500_create_link_table
+    m140101_000600_create_menu_table
+    m140101_000700_create_metadata_table
+    m140101_000800_create_page_table
+    m140101_000900_create_settings_table
+    m140101_001000_create_question_table
+    m140101_001200_create_category_table
+    m140101_001300_create_product_table
+    m140101_001400_create_related_category_table
+    m140101_001500_create_product_review_table
+    m140101_001600_create_eav_attribute_table
+    m140101_001700_create_eav_value_table
+    m140101_001800_create_gallery_table
+    m140101_001900_create_gallery_img_table
+    m140101_002000_create_sale_table
+    m140101_002100_create_accordion_tables
+    m140101_002200_create_sort_tables
+    m140101_002300_create_brand_table
+    m140101_002400_create_order_customer_fields_table
+    m140101_002500_create_iblock_tables
+    m170920_073717_add_privacy_policy_page
+    m180418_030107_add_show_categories_mode_to_category_table
+
+*** applying m140101_000100_create_blog_table
+    > create table blog ... done (time: 0.210s)
+*** applied m140101_000100_create_blog_table (time: 0.265s)
+
+*** applying m140101_000200_create_event_table
+    > create table event ... done (time: 0.281s)
+    > create index publish on event (publish) ... done (time: 0.436s)
+    > insert into event ... done (time: 0.000s)
+*** applied m140101_000200_create_event_table (time: 0.721s)
+
+*** applying m140101_000300_create_file_table
+    > create table file ... done (time: 0.285s)
+*** applied m140101_000300_create_file_table (time: 0.288s)
+
+*** applying m140101_000400_create_image_table
+    > create table image ... done (time: 0.217s)
+*** applied m140101_000400_create_image_table (time: 0.220s)
+
+*** applying m140101_000500_create_link_table
+    > create table link ... done (time: 0.202s)
+*** applied m140101_000500_create_link_table (time: 0.204s)
+
+*** applying m140101_000600_create_menu_table
+    > create table menu ... done (time: 0.210s)
+    > insert into menu ... done (time: 0.001s)
+    > insert into menu ... done (time: 0.001s)
+*** applied m140101_000600_create_menu_table (time: 0.214s)
+
+*** applying m140101_000700_create_metadata_table
+    > create table metadata ... done (time: 0.684s)
+*** applied m140101_000700_create_metadata_table (time: 0.687s)
+
+*** applying m140101_000800_create_page_table
+    > create table page ... done (time: 0.514s)
+    > insert into page ... done (time: 0.001s)
+*** applied m140101_000800_create_page_table (time: 0.517s)
+
+*** applying m140101_000900_create_settings_table
+    > create table settings ... done (time: 0.464s)
+    > create index idx_ukey on settings (category,key) ... done (time: 0.137s)
+*** applied m140101_000900_create_settings_table (time: 0.603s)
+
+*** applying m140101_001000_create_question_table
+    > create table question ... done (time: 0.227s)
+*** applied m140101_001000_create_question_table (time: 0.230s)
+
+*** applying m140101_001200_create_category_table
+    > create table category ... done (time: 0.197s)
+    > create index root on category (root) ... done (time: 0.098s)
+    > create index lft on category (lft) ... done (time: 0.097s)
+    > create index rgt on category (rgt) ... done (time: 0.100s)
+    > create index level on category (level) ... done (time: 0.115s)
+*** applied m140101_001200_create_category_table (time: 0.610s)
+
+*** applying m140101_001300_create_product_table
+    > create table product ... done (time: 0.147s)
+    > create index alias on product (alias) ... done (time: 0.170s)
+*** applied m140101_001300_create_product_table (time: 0.319s)
+
+*** applying m140101_001400_create_related_category_table
+    > create table related_category ... done (time: 0.196s)
+    > create unique index idx_cp on related_category (category_id, product_id) ... done (time: 0.124s)
+*** applied m140101_001400_create_related_category_table (time: 0.324s)
+
+*** applying m140101_001500_create_product_review_table
+    > create table product_review ... done (time: 0.194s)
+*** applied m140101_001500_create_product_review_table (time: 0.197s)
+
+*** applying m140101_001600_create_eav_attribute_table
+    > create table eav_attribute ... done (time: 0.230s)
+*** applied m140101_001600_create_eav_attribute_table (time: 0.233s)
+
+*** applying m140101_001700_create_eav_value_table
+    > create table eav_value ... done (time: 0.247s)
+*** applied m140101_001700_create_eav_value_table (time: 0.250s)
+
+*** applying m140101_001800_create_gallery_table
+    > create table gallery ... done (time: 0.224s)
+*** applied m140101_001800_create_gallery_table (time: 0.225s)
+
+*** applying m140101_001900_create_gallery_img_table
+    > create table gallery_img ... done (time: 0.215s)
+*** applied m140101_001900_create_gallery_img_table (time: 0.217s)
+
+*** applying m140101_002000_create_sale_table
+    > create table sale ... done (time: 0.172s)
+*** applied m140101_002000_create_sale_table (time: 0.174s)
+
+*** applying m140101_002100_create_accordion_tables
+    > create table accordion ... done (time: 0.199s)
+    > create table accordion_items ... done (time: 0.349s)
+*** applied m140101_002100_create_accordion_tables (time: 0.550s)
+
+*** applying m140101_002200_create_sort_tables
+    > execute SQL: 
+			CREATE TABLE IF NOT EXISTS `sort_category` (
+			`id` INT(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+			`name` VARCHAR(32) NOT NULL,
+			`key` INT(11),
+			UNIQUE (`name`, `key`),
+			INDEX (`name`)
+		) ... done (time: 0.665s)
+    > execute SQL: CREATE TABLE IF NOT EXISTS `sort_data` (
+			`id` INT(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+			`category_id` INT(11) NOT NULL,
+			`model_id` INT(11) NOT NULL,
+			`order_number` INT(11) NOT NULL,
+			`level` INT(11) DEFAULT 0,
+			UNIQUE (`category_id`, `model_id`),
+			KEY(`category_id`),
+			FOREIGN KEY `category_id` (`category_id`) REFERENCES `sort_category` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
+		) ... done (time: 1.319s)
+*** applied m140101_002200_create_sort_tables (time: 1.986s)
+
+*** applying m140101_002300_create_brand_table
+    > create table brand ... done (time: 0.420s)
+*** applied m140101_002300_create_brand_table (time: 0.423s)
+
+*** applying m140101_002400_create_order_customer_fields_table
+    > create table order_customer_fields ... done (time: 0.205s)
+    > insert into order_customer_fields ... done (time: 0.060s)
+*** applied m140101_002400_create_order_customer_fields_table (time: 0.268s)
+
+*** applying m140101_002500_create_iblock_tables
+    > create table info_block ... done (time: 0.184s)
+    > create unique index uniq on info_block (title) ... done (time: 0.117s)
+    > create table info_block_prop ... done (time: 0.180s)
+    > create unique index uniq on info_block_prop (info_block_id,code) ... done (time: 0.144s)
+    > create table info_block_prop_value ... done (time: 0.231s)
+    > create unique index uniq on info_block_prop_value (prop_id,value_key) ... done (time: 0.239s)
+    > create table info_block_element ... done (time: 0.353s)
+    > create table info_block_element_prop ... done (time: 0.219s)
+    > add foreign key block_property: info_block_prop (info_block_id) references info_block (id) ... done (time: 0.422s)
+    > add foreign key block_element: info_block_element (info_block_id) references info_block (id) ... done (time: 0.533s)
+    > add foreign key element_property_property: info_block_element_prop (prop_id) references info_block_prop (id) ... done (time: 0.625s)
+    > add foreign key element_property_element: info_block_element_prop (element_id) references info_block_element (id) ... done (time: 0.536s)
+*** applied m140101_002500_create_iblock_tables (time: 3.785s)
+
+*** applying m170920_073717_add_privacy_policy_page
+*** applied m170920_073717_add_privacy_policy_page (time: 0.003s)
+
+*** applying m180418_030107_add_show_categories_mode_to_category_table
+    > add column show_categories_mode TINYINT(4) DEFAULT 0 to table category ... done (time: 0.484s)
+*** applied m180418_030107_add_show_categories_mode_to_category_table (time: 0.486s)
+
+
+Migrated up successfully.
+
+Yii Migration Tool v1.0 (based on Yii v1.1.20)
+
+Total 1 new migration to be applied:
+    m170130_042939_create_seo_table
+
+*** applying m170130_042939_create_seo_table
+    > create table seo_seo ... done (time: 0.229s)
+    > create index hash on seo_seo (hash) ... done (time: 0.203s)
+*** applied m170130_042939_create_seo_table (time: 0.434s)
+
+
+Migrated up successfully.
+
+Yii Migration Tool v1.0 (based on Yii v1.1.20)
+
+Total 1 new migration to be applied:
+    m160415_115947_create_reviews_table
+
+*** applying m160415_115947_create_reviews_table
+    > create table reviews ... done (time: 0.497s)
+    > create index published on reviews (published) ... done (time: 0.257s)
+*** applied m160415_115947_create_reviews_table (time: 0.756s)
+
+
+Migrated up successfully.
+
+Yii Migration Tool v1.0 (based on Yii v1.1.20)
+
+Total 1 new migration to be applied:
+    m200623_043554_create_indexes
+
+*** applying m200623_043554_create_indexes
+    > create index alias on event (alias) ... done (time: 0.027s)
+    > create index alias on page (alias) ... done (time: 0.016s)
+    > create index alias on sale (alias) ... done (time: 0.032s)
+    > create index alias on category (alias) ... done (time: 0.020s)
+    > create index category_id on product (category_id) ... done (time: 0.020s)
+    > create index hidden_category_id on product (hidden,category_id) ... done (time: 0.015s)
+    > create index accordion_id on accordion_items (accordion_id) ... done (time: 0.013s)
+    > create index id_attrs on eav_value (id_attrs) ... done (time: 0.026s)
+    > create index id_product on eav_value (id_product) ... done (time: 0.021s)
+    > create index id_product_id_attrs on eav_value (id_product,id_attrs) ... done (time: 0.024s)
+    > create index item_id on file (item_id) ... done (time: 0.019s)
+    > create index model_item_id on file (model,item_id) ... done (time: 0.028s)
+    > create index item_id on image (item_id) ... done (time: 0.027s)
+    > create index model_item_id on image (model,item_id) ... done (time: 0.037s)
+    > create index alias on gallery (alias) ... done (time: 0.027s)
+    > create index preview_id on gallery (preview_id) ... done (time: 0.028s)
+    > create index gallery_id on gallery_img (gallery_id) ... done (time: 0.009s)
+    > create index owner_name_owner_id on metadata (owner_name,owner_id) ... done (time: 0.040s)
+*** applied m200623_043554_create_indexes (time: 0.432s)
+
+
+Migrated up successfully.
+
+Yii Migration Tool v1.0 (based on Yii v1.1.21)
+
+Total 1 new migration to be applied:
+    m170209_071036_create_slider_tables
+
+*** applying m170209_071036_create_slider_tables
+    > execute SQL: 
+CREATE TABLE `slider_sliders` (
+	`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`code` VARCHAR(255),
+	`active` TINYINT(1) DEFAULT 0,
+	`title` VARCHAR(255),
+	`description` TEXT,
+	`options` TEXT,
+	`slide_properties` TEXT,
+	`update_time` TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+				
+CREATE TABLE `slider_slides` (
+	`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`slider_id` INT(11) NOT NULL,
+	`active` TINYINT(1) DEFAULT 0,
+	`title` VARCHAR(255),
+	`image` VARCHAR(255),
+	`image_alt` VARCHAR(255),
+	`url` VARCHAR(255),
+	`description` TEXT,
+	`options` TEXT,
+	`update_time` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+	FOREIGN KEY `fk_slider_id` (`slider_id`) REFERENCES `slider_sliders` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
+); ... done (time: 0.006s)
+    > insert into slider_sliders ... done (time: 0.000s)
+*** applied m170209_071036_create_slider_tables (time: 0.007s)
+
+
+Migrated up successfully.

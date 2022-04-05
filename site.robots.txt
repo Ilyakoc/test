@@ -1,0 +1,27 @@
+User-agent: Yandex
+Disallow: /
+Disallow: /cp
+Disallow: /assets
+Disallow: /css
+Disallow: /js
+Disallow: /protected
+Disallow: /themes
+Disallow: /shop
+Disallow: /*?s=*
+Disallow: /uploads
+Disallow: /index.php
+Disallow: /dCart/*
+
+User-agent: *
+Disallow: /
+Disallow: /cp
+Disallow: /assets
+Disallow: /css
+Disallow: /js
+Disallow: /protected
+Disallow: /themes
+Disallow: /shop
+Disallow: /uploads
+Disallow: /*?s=*
+Disallow: /index.php
+Disallow: /dCart/*

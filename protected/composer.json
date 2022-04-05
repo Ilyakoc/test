@@ -1,0 +1,6 @@
+{
+    "require": {        
+        "paragonie/random_compat": "^9.99",
+        "mpdf/mpdf": "8.0.7"
+    }
+}

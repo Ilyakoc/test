@@ -1,0 +1,16 @@
+a:2:{i:0;a:72:{s:7:"address";s:74:"<p>г.Москва, 1-й Вязовский проезд. д.4, ст.3</p>";s:17:"blog_show_created";s:1:"0";s:8:"comments";N;s:14:"copyright_city";s:26:"в Новосибирскe";s:7:"counter";s:608:"<!-- {literal} -->
+<script type='text/javascript'>
+window['li'+'v'+'e'+'Te'+'x'] = true,
+window['li'+'veTe'+'xID'] = 173456,
+window['li'+'ve'+'Tex_obj'+'ect'] = true;
+(function() {
+var t = document['c'+'reateE'+'le'+'me'+'nt']('script');
+t.type ='text/javascript';
+t.async = true;
+t.src = '/'+'/cs15.l'+'ivet'+'ex.'+'ru/js'+'/client.js';
+var c = document['getElement'+'sByTag'+'Na'+'me']('script')[0];
+if ( c ) c['p'+'ar'+'e'+'ntNo'+'de']['inse'+'rtB'+'efore'](t, c);
+else document['docum'+'entEl'+'em'+'ent']['firs'+'tChi'+'ld']['appe'+'ndC'+'hil'+'d'](t);
+})();
+</script>
+<!-- {/literal} -->";s:10:"cropImages";N;s:8:"dev_year";s:4:"2020";s:11:"dev_year_to";s:0:"";s:5:"email";s:19:"info@aeg-technic.ru";s:11:"emailPublic";s:19:"info@aeg-technic.ru";s:20:"events_link_all_text";s:21:"Все новости";s:12:"events_title";s:14:"Новости";s:7:"favicon";s:14:"png?1575088658";s:9:"firm_name";s:21:"ООО "СИРИУС"";s:13:"gallery_title";N;s:9:"hide_news";s:1:"0";s:6:"igLink";s:21:"http://instagram.com/";s:11:"logo_footer";s:15:"logo_footer.png";s:11:"logo_header";s:15:"logo_header.png";s:10:"menu_limit";s:1:"6";s:9:"meta_desc";s:0:"";s:8:"meta_key";s:0:"";s:10:"meta_title";s:31:"Интернет-магазин";s:5:"phone";s:17:"8 (495) 103-16-91";s:6:"phone2";s:0:"";s:6:"phone3";s:0:"";s:14:"privacy_policy";s:1:"9";s:19:"privacy_policy_text";s:249:"<p><a href="mailto:info@aeg-technic.ru">info@aeg-technic.ru</a> электронная почта для обращений с вопросом о своих персональных данных, в том числе об их удалении.</p>";s:18:"question_collapsed";N;s:18:"sale_link_all_text";s:17:"Все акции";s:14:"sale_meta_desc";s:0:"";s:12:"sale_meta_h1";s:0:"";s:13:"sale_meta_key";s:0:"";s:15:"sale_meta_title";s:0:"";s:19:"sale_preview_height";s:0:"";s:18:"sale_preview_width";s:0:"";s:10:"sale_title";s:10:"Акции";s:23:"seo_yandex_verification";s:0:"";s:31:"shop_category_descendants_level";s:2:"99";s:22:"shop_enable_attributes";s:1:"1";s:17:"shop_enable_brand";s:1:"0";s:20:"shop_enable_carousel";s:1:"1";s:22:"shop_enable_hit_on_top";s:1:"0";s:21:"shop_enable_old_price";s:1:"1";s:19:"shop_enable_reviews";s:1:"0";s:16:"shop_menu_enable";s:1:"1";s:15:"shop_menu_level";s:1:"2";s:20:"shop_pos_description";s:1:"0";s:22:"shop_product_page_size";s:2:"12";s:20:"shop_show_categories";s:1:"0";s:10:"shop_title";s:13:"Kаталог";s:7:"sitemap";s:0:"";s:12:"sitemap_auto";s:0:"";s:21:"sitemap_auto_generate";s:1:"0";s:18:"sitemap_changefreq";s:6:"weekly";s:16:"sitemap_priority";s:1:"1";s:8:"sitename";s:31:"Интернет-магазин";s:11:"slider_many";s:1:"0";s:6:"slogan";s:93:"<p>РАСПРОДАЖА СКЛАДА В СВЯЗИ С ЗАКРЫТИЕМ МАГАЗИНА</p>";s:13:"system_admins";s:1:"0";s:16:"tinymce_adaptivy";s:1:"1";s:20:"tinymce_allow_iframe";s:1:"1";s:20:"tinymce_allow_object";s:1:"1";s:21:"tinymce_allow_scripts";s:1:"0";s:21:"tinymce_full_toolbars";s:1:"0";s:14:"treemenu_depth";s:1:"1";s:17:"treemenu_fixed_id";s:0:"";s:25:"treemenu_show_breadcrumbs";s:1:"0";s:16:"treemenu_show_id";s:1:"0";s:6:"vkLink";s:15:"https://vk.com/";s:9:"watermark";N;s:11:"workingTime";s:44:"<p>Пн-Вс: Круглосуточно</p>";}i:1;N;}

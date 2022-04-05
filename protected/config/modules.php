@@ -1,0 +1,1 @@
+<?php return array('feedback'=>true, 'shop'=>true, 'slider'=>true, 'sale'=>true);
